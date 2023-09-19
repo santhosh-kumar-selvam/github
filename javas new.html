@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>java script</title>
+    </head>
+    <style>
+        #wrapper{
+            border:20px,solid,black;
+            padding: 30px;
+            background-color: #000000;
+            width: 30%;
+            margin:200px;
+            height:50%;
+
+        }
+        h1{
+            text-transform: uppercase;
+            padding: 5px;
+            background-color: aqua;
+            padding-left: 30px;
+            border-radius: 20px;
+        }
+        #input{
+            padding: 10px;
+            text-align: center;
+        
+            margin-left: 100px;
+            border-radius: 20px;
+        }
+        #submit{
+            border-radius: 10px;
+            margin-left: 130px;
+            margin-top: 30px;
+            padding: 20px;
+        }
+        #results{
+            color: aliceblue;
+            text-align: center;
+            margin-top: 20px;
+        }
+        body{
+            margin: 0,auto;
+            border-radius: 20px;
+            
+        }
+        #result{
+            color: antiquewhite;
+        }
+    </style>
+    <body>
+        <div id="wrapper">
+        <h1>cm to length</h1>
+        <input type="text" id="input" placeholder="enter length"><br>
+        <button id="submit" onclick="convert()">convert to percentage</button>
+        <div id="result">
+        <div id="results1"></div>
+    
+         <div id="results2"></div>
+        
+         <div id="results3"></div>
+        </div>
+        </div>
+        <div id="name">
+            <input type="text" id="value1">
+            <input type="text" id="value2">
+    
+            <button id="send" value="submit" onclick="create()">submit</button>
+        <div id="ans"></div>
+        </div>
+    <script>
+ let name='santhosh';
+let a=name.length
+let result=name.charAt(Math.floor(Math.random()*a));
+console.log(result);
+let msg=`ramya lives 
+in chennai`;
+let city='chennai';
+console.log(msg); 
+console.log(`${name} ${city}`)
+function create(){
+document.getElementById('value1')
+document.getElementById('value2')
+let answer=`'you have' +value1+items in your cart
+your bill amount is $+value2`;
+document.getElementById('ans')
+ans.innerHTML(answer);
+}
+</script>     
+    </body>
+</html>
